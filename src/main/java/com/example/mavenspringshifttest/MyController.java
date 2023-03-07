@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
     @GetMapping("/")
     public String hello() {
-        return "edit 2 Hello OpenShift!";
+        System.out.println("squash me");
+        return "Hello OpenShift!";
     }
 }
